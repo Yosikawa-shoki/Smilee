@@ -1,12 +1,12 @@
 @charset "UTF-8";
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 781px) {
   /*画面幅が781px以上の時*/
 }
 
 body {
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-image: url("../images/background.jpg");
+
   background-size: 1600px;
 }
 
@@ -16,34 +16,19 @@ h1 {
 
 p {
   color: #000000;
-  font-size: 52px;
-  margin: 100px 0px 100px 0px;
+  font-size: 30px;
+  margin: 0px 0px 0px 0px;
+  line-height: 80px;
 }
 
 h2 {
-  font-size: 52px;
+  font-size: 30px;
   position: relative;
   padding: 1.5rem 2rem;
-  border: 4px solid #000;
-  background-color: #ffffff;
+  border-bottom: 4px solid  #818181;
 }
 
-h2:before,
-h2:after {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  content: "";
-  border-top: 4px dotted #000;
-}
 
-h2:before {
-  top: 6px;
-}
-
-h2:after {
-  bottom: 6px;
-}
 
 h3 {
   position: relative;
@@ -110,13 +95,12 @@ li a {
 }
 
 .Telephone_number {
-  font-size: 54px;
-  margin: 100px 0px 100px 0px;
+  font-size: 30px;
 }
 
 .h2_heading {
   margin: 100px 0 100px 0;
-  font-size: 80px;
+  font-size: 42px;
 }
 
 .h3_heading {
@@ -140,18 +124,17 @@ li a {
 }
 
 footer {
-  background-color: #178ddb;
   padding: 100px 0 100px 0;
   margin: 100px 0 0 0;
   min-width: 1600px;
 }
 
 .photo {
-  margin: 0 0 100px 0;
+  margin: 100px 0 100px 0;
 }
 
 .l-general_header {
-  background-color: #0072e5;
+  background-color: #ffffff;
   margin: 0 0 100px 0;
   min-width: 1600px;
 }
@@ -169,29 +152,6 @@ footer {
   min-width: 1600px;
   width: auto;
   text-align: center;
-}
-
-.color1 {
-  color: #ff7b00;
-  font-size: 80px;
-}
-
-.color2 {
-  color: #ffbb00;
-  font-size: 80px;
-}
-
-.color3 {
-  color: #d82417;
-  font-size: 80px;
-}
-
-.c-basic_section_store_manager_group_text2 {
-  font-size: 100px;
-}
-
-.font-weight-bold_color__logo {
-  margin: 0 0 0 100px;
 }
 
 .menu-btn {
@@ -288,3 +248,599 @@ footer {
 #menu-btn-check:checked ~ .menu-content {
   left: 0; /*メニューを画面内へ*/
 }
+
+.bouder {
+  border-bottom: inset 1px #818181;
+  margin: 0 0 20px 0;
+}
+
+.seize {
+  width: 1000px;
+  margin: auto;
+}
+
+.video_messeg {
+  margin: 100px 0 0 0;
+}
+
+.dennwabanngou {
+  list-style: none;
+  margin: 0;
+}
+
+.dennwabangou_list {
+  display: inline-block;
+  margin: 20px 0 20px 0;
+}
+
+.instagram {
+  list-style: none;
+  margin: 0;
+  font-size: 30px;
+}
+
+.instagram_tatol {
+  display: inline-block;
+  margin: 20px 0 20px 0;
+}
+
+.img1 {
+  float: left;
+  margin: -30px 0px 0px 300px;
+}
+
+.c-basic_section_store_manager_group_text{
+  overflow: center;
+  margin: 0 200px;
+}
+
+.font-weight-bold_color__logo {
+  margin: 0 200px;
+}
+
+.topbouder {
+  border-top: inset 1px  #818181;
+
+}
+
+.tel_seize{
+  font-size: 30px;
+  margin: 30px 0 30px 0;
+}
+
+.fontdrixe{
+  font-size: 32px;
+}
+
+.sns-1 {
+  margin: 0 50px;
+}
+
+@charset "UTF-8";
+@media screen and (max-width: 1300px) {
+  /* 1300px以下に適用されるCSS（タブレット.SP用） */
+  .main-top-movie .text-h {
+    font-size: 40px !important;
+  }
+  .main-top-movie .text-p {
+    font-size: 32px !important;
+  }
+}
+@media screen and (max-width: 1100px) {
+  /* 1100px以下に適用されるCSS（タブレット.SP用） */
+  .breadcrumbs {
+    margin-top: 80px;
+  }
+
+  .d-flex {
+    width: 100%;
+  }
+
+  .global-nav {
+    display: none;
+  }
+
+  .main-header-btn {
+    display: none;
+  }
+
+  .info-No {
+    display: none;
+  }
+
+  /* ハンバーガーメニュー */
+  /* メニューバー */
+  .burger-btn {
+    display: block !important;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    z-index: 3;
+    border: none;
+    margin-left: auto;
+    margin-top: 20px;
+  }
+
+  .bar {
+    width: 27px;
+    height: 2.5px;
+    display: block;
+    position: absolute;
+    left: 1%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    background-color: #618ef1;
+  }
+
+  .bar_top {
+    top: 10px;
+  }
+
+  .bar_mid {
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+
+  .bar_bottom {
+    bottom: 10px;
+  }
+
+  /* /メニューバー */
+  .burger-btn.close .bar_top {
+    -webkit-transform: translate(-50%, 10px) rotate(45deg);
+            transform: translate(-50%, 10px) rotate(45deg);
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+  }
+
+  .burger-btn.close .bar_mid {
+    opacity: 0;
+    -webkit-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+  }
+
+  .burger-btn.close .bar_bottom {
+    -webkit-transform: translate(-50%, -8px) rotate(-45deg);
+            transform: translate(-50%, -8px) rotate(-45deg);
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+  }
+
+  /* ハンバーガーメニュー画面表示 */
+  .nav-wrapper {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+
+  .header-nav {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(15, 36, 107, 0.9);
+    z-index: 2;
+  }
+
+  .header-nav,
+.nav-list {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 0;
+  }
+
+  .header-nav,
+.nav-item {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .nav-list a {
+    color: #c8e7ff;
+    text-decoration: none;
+  }
+
+  .nav-list-sns {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    top: 90%;
+    left: 45%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  body.noscroll {
+    overflow: hidden;
+  }
+
+  /* /ハンバーガーメニュー画面表示 */
+  /* /ハンバーガーメニュー */
+  .main-top-movie {
+    margin-top: 20px !important;
+  }
+  .main-top-movie .text-h {
+    width: 100% !important;
+    font-size: 32px !important;
+  }
+  .main-top-movie .text-p {
+    font-size: 16px !important;
+    top: 60% !important;
+    -webkit-text-stroke: 0.5px #acf02e !important;
+  }
+
+  .do-you-have-such-a-problem_wrap {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  .do-you-have-such-a-problem_wrap .do-you-have-such-a-problem_element {
+    display: block;
+    padding-bottom: 8px;
+    margin-top: 20px;
+  }
+  .do-you-have-such-a-problem_wrap .do-you-have-such-a-problem_element img {
+    width: 100%;
+    padding: 0;
+  }
+
+  .whats-sanyou_title h2 {
+    margin-top: 10px !important;
+  }
+
+  .whats-sanyou-item_wrap_item {
+    display: block !important;
+  }
+
+  .quality h2 {
+    margin-top: 20px !important;
+  }
+  .quality .et_pb_module {
+    width: 100%;
+    height: 20px;
+    margin: 0 auto;
+  }
+
+  .et_pb_text_inner1 {
+    display: block !important;
+    margin-top: 30px;
+  }
+  .et_pb_text_inner1 img {
+    width: 100%;
+    display: inline-block;
+    padding: 20px;
+  }
+
+  .et_pb_text_inner2 {
+    display: block !important;
+    margin-top: 30px;
+  }
+  .et_pb_text_inner2 img {
+    width: 100%;
+    display: inline-block;
+    padding: 20px;
+  }
+
+  .et_pb_text_inner3 {
+    display: block !important;
+    margin-top: 30px;
+  }
+  .et_pb_text_inner3 img {
+    width: 100%;
+    display: inline-block;
+    padding: 20px;
+  }
+
+  .news_title-wrap {
+    height: auto;
+    padding: 0 0 20px 0;
+  }
+
+  .news-card {
+    width: 100%;
+  }
+  .news-card p {
+    padding: 0;
+  }
+
+  .news-card-item {
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+    padding: 0;
+  }
+  .news-card-item .news-card-item-list {
+    display: block !important;
+  }
+  .news-card-item .news-card-item-list a {
+    padding: 0;
+  }
+  .news-card-item .news-card-item-list .date {
+    margin-bottom: 0;
+  }
+  .news-card-item .news-card-item-list .information_content {
+    margin-top: 5px !important;
+  }
+
+  .modoru-btn {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 100px;
+    height: 25px;
+    background-color: #67c5ff;
+    border-radius: 10px;
+    margin-bottom: 0;
+    font-size: 12px;
+    line-height: 25px;
+    font-weight: bold;
+  }
+
+  #spectrumPlugin {
+    padding-bottom: 50px;
+  }
+
+  .company-wrap {
+    margin-top: 120px !important;
+  }
+
+  .company-title h2 {
+    padding: 0 !important;
+  }
+
+  .company_profile {
+    margin-top: 20px;
+  }
+  .company_profile .list-border {
+    display: none;
+  }
+
+  .list-border-sp {
+    display: block !important;
+  }
+
+  .list-border-sp-item {
+    margin: 50px 0;
+  }
+
+  .list-border-sp-item_T {
+    font-weight: bold;
+    -webkit-text-decoration: underline #afa9a9;
+            text-decoration: underline #afa9a9;
+  }
+
+  .list-border-sp-item_p {
+    -webkit-text-decoration: underline #afa9a9;
+            text-decoration: underline #afa9a9;
+  }
+
+  #access {
+    margin-top: 50px;
+  }
+  #access iframe {
+    width: 80%;
+  }
+  #access .access-title {
+    font-size: 24px;
+    color: #8da6d6;
+  }
+
+  .terms-of-use {
+    width: 80%;
+    padding: 10px;
+  }
+
+  .liability-for-damages {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 50px;
+  }
+
+  .service-contents {
+    margin-top: 120px;
+  }
+
+  .service-wrap h3 {
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+  }
+  .service-wrap p {
+    width: 100%;
+    font-size: 18px;
+    padding: 20px;
+  }
+  .service-wrap .please-leaveit-to-us-in-such-a-case_card {
+    display: block;
+  }
+  .service-wrap .please-leaveit-to-us-in-such-a-case_item {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .service-wrap .please-leaveit-to-us-in-such-a-case_item .imgimg {
+    display: none;
+  }
+  .service-wrap .please-leaveit-to-us-in-such-a-case_item img {
+    width: 100%;
+  }
+  .service-wrap .please-leaveit-to-us-in-such-a-case_item p {
+    width: 100%;
+    padding: 30px;
+    overflow-wrap: break-word;
+  }
+
+  .delivery-area {
+    margin-top: 0px;
+  }
+
+  .delivery-area-wrap {
+    margin-top: 120px !important;
+  }
+  .delivery-area-wrap .three-area-wrap {
+    display: block;
+  }
+  .delivery-area-wrap .three-area-wrap h2 {
+    margin: 70px auto;
+  }
+  .delivery-area-wrap .three-area-wrap p {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  .delivery-area-wrap .three-area-wrap img {
+    width: 100%;
+    height: auto;
+  }
+
+  .customers-voice-wrap {
+    margin-top: 120px;
+  }
+  .customers-voice-wrap .customers-voice-title h3 {
+    padding: 20px;
+  }
+  .customers-voice-wrap .customers-voice-title p {
+    width: 100%;
+    padding: 20px;
+  }
+  .customers-voice-wrap .customers-voice-card_wrap .customers-voice-card_item {
+    width: 90%;
+  }
+  .customers-voice-wrap .customers-voice-card_wrap .customers-voice-card_item h3 {
+    font-size: 16px;
+  }
+  .customers-voice-wrap .customers-voice-card_wrap .customers-voice-card_item p {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .top-img-recruitment {
+    max-width: 100% !important;
+  }
+
+  footer {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .footer_nav {
+    display: block !important;
+    padding-top: 10px !important;
+  }
+
+  .footer_logo_img-addless {
+    margin: 0;
+    text-align: center;
+    padding: 0 !important;
+  }
+  .footer_logo_img-addless p {
+    padding: 0 !important;
+  }
+
+  .addless {
+    font-size: 12px;
+    margin: 5px auto;
+  }
+
+  .footer_logo_img {
+    margin: 20px auto;
+  }
+
+  .nav_map_detail {
+    display: block !important;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .footer_about,
+.footer_company,
+.footer_contact h4 {
+    margin-top: 30px;
+  }
+
+  .copyright {
+    margin-bottom: 0;
+  }
+
+  /* CTA */
+  .CTA {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .CTAbtn {
+    display: block;
+  }
+
+  .CTA h2 {
+    font-size: 16px;
+  }
+
+  .CTAmail {
+    height: 50px;
+    background-color: red;
+    border-radius: 40px;
+    color: white;
+    font-size: 14px;
+    line-height: 50px;
+    margin: 0 auto;
+  }
+
+  .CTACall {
+    font-size: 15px;
+  }
+
+  .phone-No {
+    font-size: 35px;
+    padding-top: 10px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+  }
+
+  /* /CTA */
+}
+/* スマホを横向きにしたとき */
+/* スマホを横向きにしたとき */
+/* スマホを横向きにしたとき */
+@media screen and (max-height: 500px) {
+  /* 高さ500px以下の場合 */
+  .nav-list-sns {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .nav-list {
+    margin-top: 20px;
+  }
+
+  .nav-item {
+    margin-bottom: 25px;
+  }
+
+  .nav-item-sns {
+    margin-bottom: 8px;
+  }
+}
+/* /スマホを横向きにしたとき */
+/* /スマホを横向きにしたとき */
+/* /スマホを横向きにしたとき */
+/*# sourceMappingURL=responsive.css.map */
